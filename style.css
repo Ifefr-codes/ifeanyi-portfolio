@@ -17,6 +17,11 @@ body{
     font-family: "right";
 }
 
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
 header{
     width: 100%;
     padding: 20px;
@@ -55,4 +60,23 @@ li a{
     text-transform: uppercase;
     font-size: 1rem;
     cursor: pointer;
+}
+
+
+/* about-me */
+.about-me{
+    font-family: "DM";
+    padding: 40px ;
+}
+
+.about-me h2{
+    text-align: center;
+    font-size: 5rem;
+    line-height: 6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.about-me span{
+    color: #00C869;
 }
