@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "DM";
+    src: url(./fonts/1cXxaUPXBpj2rGoU7C9WiHGF.ttf);
+}
+@font-face {
+    font-family: "right";
+    src: url(./fonts/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    color: #fff;
+    font-family: "right";
+}
+
+header{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: #00C869;
+    font-size: 1rem;
+    font-family: "DM";
+}
+
+.logo img{
+    width: 200px;
+}
+
+.btn{
+    background-color: #fff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-family: "DM";
+    text-transform: uppercase;
+    font-size: 1rem;
+    cursor: pointer;
+}
