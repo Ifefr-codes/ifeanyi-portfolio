@@ -1,82 +1,195 @@
 @font-face {
-    font-family: "DM";
-    src: url(./fonts/1cXxaUPXBpj2rGoU7C9WiHGF.ttf);
+  font-family: "DM";
+  src: url(./fonts/1cXxaUPXBpj2rGoU7C9WiHGF.ttf);
 }
 @font-face {
-    font-family: "right";
-    src: url(./fonts/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.ttf);
+  font-family: "right";
+  src: url(./fonts/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.ttf);
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: #000000;
-    color: #fff;
-    font-family: "right";
-}
-
-.container{
-    max-width: 1320px;
-    margin: 0 auto;
+body {
+  background-color: #000000;
+  color: #fff;
+  font-family: "right";
 }
 
-header{
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
 }
 
-nav ul{
-    display: flex;
-    align-items: center;
-    gap: 50px;
+header {
+  width: 100%;
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
 
 nav ul li {
-    list-style: none;
+  list-style: none;
 }
 
-li a{
-    text-decoration: none;
-    color: #00C869;
-    font-size: 1rem;
-    font-family: "DM";
+li a {
+  text-decoration: none;
+  color: #00c869;
+  font-size: 1rem;
+  font-family: "DM";
 }
 
-.logo img{
-    width: 200px;
+.logo img {
+  width: 200px;
 }
 
-.btn{
-    background-color: #fff;
-    padding: 10px 20px;
-    border: none;
-    outline: none;
-    font-family: "DM";
+.btn {
+  background-color: #fff;
+  padding: 15px 25px;
+  border: none;
+  outline: none;
+  font-family: "DM";
+  text-transform: uppercase;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.hero-heading{
+    position: absolute;
+    font-size: 16rem;
     text-transform: uppercase;
+    font-weight: 600;
+    font-family: "DM";
+    mix-blend-mode: difference;
+    color: white; /* base color */
+}
+
+/* .image-text {
+    background: url("./images/ifeanyi.jpeg") center/cover no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .solid-text {
+    color: #fff;
+  } */
+
+  /* .gradient-text {
+    background: linear-gradient(90deg, #9f7aea, #4fd1c5, #63b3ed); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .solid-text {
+    color: #fff;
+  } */
+
+.hero-image {
+  height: 100%;
+  width: 40%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.hero-content {
+  height: 100%;
+  width: 60%;
+  padding-left: 100px;
+  color: #9d9d9d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.hero-content p{
     font-size: 1rem;
-    cursor: pointer;
+    line-height: 1.5rem;
+}
+
+.hero-content p b{
+    color: #fff;
+}
+
+.hero-btns{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.project-btn{
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: "DM";
+}
+
+.social-btns{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social-btn a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.social-btn{
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    color: #000000;
+    font-size: 1.2rem;
 }
 
 
 /* about-me */
-.about-me{
-    font-family: "DM";
-    padding: 40px ;
+.about-me {
+  font-family: "DM";
+  padding: 40px;
 }
 
-.about-me h2{
-    text-align: center;
-    font-size: 5rem;
-    line-height: 6rem;
-    font-weight: 400;
-    text-transform: uppercase;
+.about-me h2 {
+  text-align: center;
+  font-size: 5rem;
+  line-height: 6rem;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
-.about-me span{
-    color: #00C869;
+.about-me span {
+  color: #00c869;
 }
