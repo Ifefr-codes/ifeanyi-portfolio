@@ -25,14 +25,9 @@
           <li><a href="#about">About Me</a></li>
           <li><a href="#services">My Services</a></li>
           <li>
-            <a
-              href="./resume/Izuegbunam_Ifeanyi_CV_July_2025.pdf.pdf"
-              download
-              target="_blank"
-            >
-              My Resume
-            </a>
-          </li>
+  <a href="#resume-request">Request Resume</a>
+</li>
+
         </ul>
       </nav>
 
@@ -44,6 +39,56 @@
         <span></span>
       </div>
     </header>
+<!-- Resume Request Form -->
+<div id="resume-request" class="contact-form-container" style="animation: fadeUp 0.8s ease forwards 0.9s">
+  <h2>Request My Resume</h2>
+
+  <p style="margin-bottom: 20px;">
+  Interested in my resume? Please leave a quick message below.
+</p>
+
+
+  <form action="https://formspree.io/f/maqyzdoe" method="post" class="contact-form">
+
+    <div class="form-group">
+      <label for="rr-name">Your Name</label>
+      <input
+        type="text"
+        id="rr-name"
+        name="Name"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="rr-email">Your Email</label>
+      <input
+        type="email"
+        id="rr-email"
+        name="Email"
+        placeholder="Enter your email"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="rr-purpose">Purpose of Request</label>
+      <textarea
+        id="rr-purpose"
+        name="Purpose"
+        rows="4"
+        placeholder="Briefly describe why you are requesting my resume"
+        required
+      ></textarea>
+    </div>
+
+    <!-- Optional hidden field for clarity in emails -->
+    <input type="hidden" name="Form Type" value="Resume Request" />
+
+    <button type="submit" class="submit-btn">Submit Request</button>
+  </form>
+</div>
 
     <!-- Hero Section -->
     <section class="hero-section container fade-up">
@@ -158,7 +203,7 @@
       </div>
     </section>
 
-    <!-- Education and Experienece Section -->
+    <!-- Education and Experience Section -->
     <section id="experience" class="experience fade-up">
       <h2>Experience</h2>
 
@@ -171,7 +216,7 @@
             <p>
               Developed web apps using JSP, Servlets, HTML & CSS. Implemented
               J2EE patterns, EJB for business logic, and mentored Technovation
-              Girls students.
+              Girls' students.
             </p>
           </div>
         </div>
