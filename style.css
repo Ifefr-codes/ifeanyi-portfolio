@@ -29,7 +29,7 @@ header {
   align-items: center;
   justify-content: space-between;
   position: relative;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .logo img {
@@ -177,6 +177,7 @@ li a:hover {
   mix-blend-mode: difference;
   margin-top: 100px;
   color: white; /* base color */
+  pointer-events: none;
 }
 
 .hero-image {
