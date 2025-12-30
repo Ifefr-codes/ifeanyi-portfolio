@@ -1,2 +1,2 @@
 # ifeanyi-portfolio
-This is portfolio website for my client
+A personal portfolio website highlighting my work, experience, and professional background.
