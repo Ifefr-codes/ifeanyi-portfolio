@@ -39,27 +39,7 @@
         <span></span>
       </div>
     </header>
-<!-- Resume Request Form -->
-<div id="resume-request" class="contact-form-container" style="animation: fadeUp 0.8s ease forwards 0.9s">
-  <h2>Request My Resume</h2>
 
-  <p style="margin-bottom: 20px;">
-  Interested in my resume? Please leave a quick message below.
-</p>
-
-
-  <form action="https://formspree.io/f/maqyzdoe" method="post" class="contact-form">
-
-    <div class="form-group">
-      <label for="rr-name">Your Name</label>
-      <input
-        type="text"
-        id="rr-name"
-        name="Name"
-        placeholder="Enter your name"
-        required
-      />
-    </div>
 
     <div class="form-group">
       <label for="rr-email">Your Email</label>
@@ -100,7 +80,7 @@
       </div>
       <div class="hero-content">
         <p>
-          I’m <b>a senior product designer</b> with <b>15+ years</b> of
+          I’m <b>a junior product designer</b> with <b>10+ years</b> of
           experience guiding startups and cross-functional teams toward
           sustainable growth and user-centered innovation
         </p>
@@ -125,6 +105,45 @@
         </div>
       </div>
     </section>
+    <!-- Resume Request Section -->
+<section id="resume-request" class="resume-request-section container fade-up">
+  <div class="contact-form-container">
+    <h2>Request My Resume</h2>
+
+    <p style="margin-bottom: 20px;">
+      Interested in my resume? Please leave a quick message below.
+    </p>
+
+    <form action="https://formspree.io/f/maqyzdoe" method="post" class="contact-form">
+
+      <div class="form-group">
+        <label for="rr-name">Your Name</label>
+        <input type="text" id="rr-name" name="Name" placeholder="Enter your name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="rr-email">Your Email</label>
+        <input type="email" id="rr-email" name="Email" placeholder="Enter your email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="rr-purpose">Purpose of Request</label>
+        <textarea
+          id="rr-purpose"
+          name="Purpose"
+          rows="4"
+          placeholder="Briefly describe why you are requesting my resume"
+          required
+        ></textarea>
+      </div>
+
+      <input type="hidden" name="Form Type" value="Resume Request" />
+
+      <button type="submit" class="submit-btn">Submit Request</button>
+    </form>
+  </div>
+</section>
+
 
     <!-- About Section -->
     <section id="about" class="about-me container fade-up">
@@ -194,11 +213,11 @@
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkdgUkYVq9-UPHtkrQyNzA1t-hCdSG65-XYw&s" alt="">
         </div>
         <div class="left">
-          <h3>programming (Java/ Python)</h3>
+          <h3>programming (Python/ Java)</h3>
         </div>
 
         <p>
-          Hands-on support in Java and Python programming, including app development, automation scripts, and solving complex coding problems efficiently.
+          Hands-on support in Python and Java programming, including app development, automation scripts, and solving complex coding problems efficiently.
         </p>
       </div>
     </section>

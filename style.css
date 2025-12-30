@@ -968,3 +968,9 @@ li a:hover {
     transform: translateY(0);
   }
 }
+/* FORCE Get Started button to show on mobile (header only) */
+@media (max-width: 768px) {
+  header .btn {
+    display: inline-block;
+  }
+}
